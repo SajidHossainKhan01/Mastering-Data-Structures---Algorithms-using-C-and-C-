@@ -17,8 +17,7 @@ int main() {
     struct Rectangle r1;  // Declares a variable of type 'Rectangle'
 
     // ✅ Initialization of Structure Members
-    r1.length = 10;
-    r1.breadth = 5;
+    struct Rectangle r1={10,5};
 
     // ✅ Accessing Structure Members
     cout << "Initial Values:" << endl;
